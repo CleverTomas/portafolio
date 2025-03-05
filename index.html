@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Clever</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()"></a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">mis aprendizajes...</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+        <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/mifotoo.jpg" alt="Foto de perfil">
+            </div>
+            <h1>Cleverson Juarez</h1>
+            <h2>Pre-Ingeniero en Ciencias de la computacion y Tecnologia de la informacion - Experto en aprender, no tanto pero ahi voy   😅</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/tuusuario" target="_blank"><i class="fa-brands fa-facebook-f"></i></a> 
+                <a href="https://twitter.com/tuusuario" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.skype.com/tuusuario" target="_blank"><i class="fa-brands fa-skype"></i></a>
+                <a href="https://www.linkedin.com/in/tuusuario" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.rss.com/tuusuario" target="_blank"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- SECCION SOBRE MI -->
+
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Clever Juarez.</span> tengo 20 años vivo en Mixco Guatemala.
+                 Estudié en las Salle  y después en el Centro Educativo Vocacional San José.
+                  Mis intereses incluyen aprender a programar, ya sea Javascript, Python, Angular. Base de Datos, 
+                  si es posible C++ es lo que mas me gusta aunque sea costosa, y aprender mucho de Linux y por supuesto más sobre 
+                  computación y desarrollo de juegos, y explorar la inteligencia artificial. Tomé la carrera 
+                  de Ingeniería en Computación porque es lo que me apasiona y me motiva. 
+                  Me encanta aprender cosas nuevas y resolver problemas complejos, y creo que la Ingeniería en 
+                  Computación me permitirá hacerlo en un campo emocionante y en constante evolución.
+                 Además, creo que la tecnología es el futuro y quiero ser parte de él.</p>
+
+            <div class="fila">
+            <!-- datos personales -->
+
+                <div class="col">
+                    <h3> Mi Primer Mes En La Univeridad --UVG-- </h3>
+                    <p> Mi primer mes en la Universidad se basa en bastantes emociones y experiencias, en el primer mes
+                        de la Universida del Valle de
+                         Guatemala mientras comienzo mi carrera en Ingenieria en Ciencias de la Computacion Y Tecnologia 
+                        de la Informacion. descubrir el mundo academico de la carrera fue muy increible, especialmente en las clases de 
+                        Introduccion que han despertado mi interes y curiosidad por lo tanto han mostrado la 
+                        amplitud de conocimientos que explorar. La interaccion con mis compañeros y profesores ha sido muy buena,
+                        creando un ambiente de aprendizaje y muy muy colaborativo que me ha motivado seguir adelante y esforzarme mas.</p> 
+                    <p> 
+                        Sin embargo, no todo ha sido un camino de rosas. Adaptarme a la carga académica y a la 
+                         dinámica de estudio ha sido todo un reto. Equilibrar el tiempo entre las clases,
+                          las tareas y las actividades extracurriculares no ha sido fácil.
+                          La transición a la vida universitaria también ha significado hacer ajustes 
+                          en mi rutina diaria y en mi estilo de aprendizaje. Esto ha requerido un 
+                          esfuerzo extra para organizarme y mantenerme al día con las exigencias académicas.
+                    
+                     <p></p>A pesar de los desafíos, he encontrado un apoyo invaluable en mis
+                      compañeros y en los recursos que ofrece la universidad.
+                       Esto me ha ayudado a superar obstáculos y a crecer tanto
+                        académica como personalmente. A medida que avanzo en mi 
+                        primer mes en la UVG, me emociona ver las oportunidades de 
+                        aprendizaje y crecimiento que se presentan. Aunque reconozco que aún 
+                        hay aspectos por mejorar, como la gestión del tiempo y la adaptación
+                         a un ritmo de estudio más intenso, estoy ansioso por seguir 
+                         explorando este nuevo mundo universitario y enfrentar los desafíos
+                          con determinación y entusiasmo.</p>
+                    </p>
+
+
+
+                   <!--
+                    <div class="fila">
+                        <!-- datos personales 
+            
+                            <div class="col">
+                                <h3> datos personales </h3>
+                    <!-- <ul>
+                        
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            15-01-1980
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            2555 5454545
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            cw@example.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.example.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            123 San Luis, Argentina
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul> --> 
+
+
+
+
+
+                </div>
+      
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-windows"></i>
+                            <span>Windows</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <!--
+            <button>
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button> -->
+        </div>
+
+    </section>
+
+
+    <!-- SECCION SKILLS    
+
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill 
+
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupa</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills
+
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Management</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --> 
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Mis aprendizajes en Computación</h2>
+
+            <div class="fila">
+                <div class="col izquierda">
+                   <!--<h3>Educación</h3> -->
+                    <div class="item izq">
+                        <h4>1</h4>
+                        <span class="casa">1. Diseño de Aplicaciones y Recopilación de Feedback del Usuario:</span>
+                        <span class="fecha"></span>
+                        <p>En un proyecto de clase, diseñamos una aplicación móvil similar a Uber,
+                             pero adaptada a las necesidades de la comunidad universitaria de la UVG (UVG).
+                              Este proyecto involucró no solo el diseño de la interfaz de usuario (UI)
+                               y la experiencia de usuario (UX), sino también la crucial etapa de
+                                recopilar feedback del usuario a través de entrevistas. 
+                                Nuestro prototipo incluía secciones para la búsqueda de alojamiento (apartamentos), 
+                                rutas guardadas, configuraciones, foros, un buscador y la selección del 
+                                 de vehículo (similar a Uber).</p>
+
+                                 <p> Salimos a la universidad a entrevistar a estudiantes sobre nuestra idea.
+                                     La mayoría recibió positivamente el concepto, sugiriendo que habláramos 
+                                     con las autoridades universitarias para explorar su viabilidad. Sin embargo,
+                                      algunos estudiantes señalaron similitudes con Uber, expresando dudas sobre 
+                                      su potencial éxito. Esta experiencia me enseñó la importancia de la investigación
+                                       de usuarios y la validación de ideas a través de la retroalimentación directa.
+                                </p>
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+
+
+                    </div>
+                    <div class="item izq">
+                        <h4>2</h4>
+                        <span class="casa">2. Fundamentos de Programación en Python:</span>
+                        <span class="fecha">programacion Basica</span>
+                        <p>En la clase de Programación Básica, he consolidado mis habilidades
+                             en programación utilizando Python. He realizado varios ejercicios
+                              que me han ayudado a comprender conceptos fundamentales como los 
+                              ciclos while, la entrada de datos del usuario
+                               y las estructuras condicionales.
+                        </p>
+
+
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>3</h4>
+                        <span class="casa">Problema de la Cerca</span>
+                        <span class="fecha"></span>
+                        <p>En la clase de Programación Básica, el 1 de marzo de 2025, si no estoy mal, 
+                            se nos planteó un problema que requería integrar conocimientos 
+                            matemáticos con la programación: calcular los requerimientos para 
+                            cercar un terreno rectangular. El problema simulaba la situación de 
+                            un granjero que necesita calcular el perímetro de su terreno, 
+                            el costo de la madera para la cerca y la cantidad de postes necesarios. 
+                            Esto requirió que tradujera las fórmulas geométricas 
+                            para el perímetro y el área a código Python.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col derecha">
+                    <!--<h3>Experiencia de trabajo</h3> --> 
+                    <div class="item der">
+                        <h4>1</h4>
+                        <span class="casa">Evidencia:</span>
+                        <span class="fecha"></span>
+                        <p>Aunque no puedo incluir las grabaciones de las entrevistas,
+                             puedo describir la estructura de la misma, incluyendo preguntas 
+                             abiertas sobre la utilidad de la aplicación, su diseño y sus 
+                             posibles mejoras. También puedo incluir bocetos de la interfaz de 
+                             usuario del prototipo VRVG.</p>
+
+                             <span class="casa">Metacognicion</span>
+                             <p>Este proyecto me hizo consciente de la importancia de comprender las
+                                 necesidades del usuario antes de desarrollar cualquier aplicación.
+                                  No basta con tener una buena idea; es fundamental validar esa idea con el
+                                   público objetivo para asegurar su éxito. Aprendí la importancia de la 
+                                   iteración y la adaptación del diseño basado en el feedback recibido.
+                            </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="item der">
+                        <h4>2</h4>
+                        <span class="casa">Evidencia</span>
+                        <span class="fecha"></span>
+                        <p>A continuación, se presentan ejemplos de código que ilustran 
+                            algunos de los ejercicios realizados:</p>
+                            
+                                <span class="fecha">Ciclo while para imprimir números del 1 al 10:</span>
+                                <img src="ImagendeCODIGOS/Captura de pantalla 2025-03-04 234815.jpg" alt="Ciclo while para imprimir números del 1 al 10">
+                            
+                                <span class="fecha">Cálculo del promedio de números ingresados por el usuario:</span>
+                                <img src="ImagendeCODIGOS/sdadasda.jpg" alt="Cálculo del promedio de números ingresados por el usuario">
+
+                                <span class="casa">Metacognicion</span>
+                                <p> Estos ejercicios me han ayudado a comprender la lógica fundamental de la
+                                     programación y a desarrollar habilidades para escribir código limpio y eficiente. 
+                                     He aprendido a descomponer problemas en pasos más pequeños y a utilizar estructuras 
+                                     de control de flujo para controlar el flujo de ejecución de un programa. 
+                                     La práctica constante es clave para dominar estos conceptos.
+                                </p>
+                            
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                        
+
+
+                    </div>
+                    <div class="item der">
+                        <h4>3</h4>
+                        <span class="casa">Evidencia</span>
+                        <span class="fecha"></span>
+                        <p>A continuación, se presenta un ejemplo de 
+                            cómo implementé la solución en Python:</p>
+                            <img src="ImagendeCODIGOS/Granjero.jpg" alt="Cálculo del promedio de números ingresados por el usuario">
+                            <span class="casa">Metacognicion</span>
+                            <p> Este ejercicio me permitió combinar conocimientos de diferentes áreas,
+                                 como matemáticas y programación. Aprendí a traducir un problema 
+                                 del mundo real en un programa de computadora, teniendo en cuenta 
+                                 variables y posibles errores. La precisión en los cálculos y la 
+                                 claridad del código fueron esenciales para obtener una solución 
+                                 correcta y comprensible. Además, me hizo reflexionar sobre la
+                                  importancia de documentar el código para que otros puedan 
+                                  entenderlo fácilmente. Este problema me hizo darme cuenta 
+                                  de que la programación no es solo escribir código, sino 
+                                  también comprender el problema y conceptualizar la solución.
+                            </p>
+
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item der centrado">
+            <h4>Con estos tres ejemplos, he demostrado mi progreso en la comprensión de los fundamentos de la
+                 programación y el diseño de aplicaciones. Estoy emocionado por los desafíos que
+                  se avecinan y por seguir aprendiendo y creciendo en este campo.
+
+            </h4> </div>
+
+    </section>
+
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+
+            <!-- 
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>--> 
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tú Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Mixco Guatemala, Altos del encinal 
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                num: +502 4834 4082
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: tom251435@uvg.edu.gt
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
